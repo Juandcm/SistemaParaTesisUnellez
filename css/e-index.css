@@ -1,0 +1,358 @@
+/*barra superior (Login + Redes + Info)*/
+#login_sociles {
+    height: 30px;
+    border-bottom: 1px solid #fff;
+}
+
+#c_item {
+    font-size: 13px;
+
+}
+
+#c_item a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#h_titulo {
+    font-size: 55px;
+    line-height: 15px;
+
+}
+
+#h_logo_unellez_header {
+    width: 40px;
+}
+
+#h_abreviatura {
+    font-size: 12px;
+
+}
+
+.h_tx_menu {
+    font-size: 18px;
+    font-weight: bold
+}
+
+.h_tx_menu:hover {
+    border-top: 1px solid #fff;
+    font-weight: bolder;
+
+}
+
+#buscar_tesis,
+#btn_buscar_index {
+    border-radius: 0px;
+}
+
+/*Estilos slider*/
+
+.c_titulo_tesis {
+    background: rgb(255, 255, 255);
+    color: #000;
+    height: 180px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.btn_titulo_tesis:hover {
+    text-decoration: none;
+}
+
+.info_tesis,
+.sede_tesis {
+    line-height: 7px;
+}
+
+.p_autor {
+    line-height: 15px;
+    margin: 0px;
+}
+
+.c_estudiante {
+    background: -webkit-gradient(linear, left top, left bottom, from(#025689), to(#025689));
+    background: linear-gradient(#025689, #025689);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.26);
+}
+
+.descripcion_tesis {
+    background: -webkit-gradient(linear, left top, left bottom, from(#025689), to(#046eaf));
+    background: linear-gradient(#025689, #046eaf);
+}
+
+.titulo_tesis {
+    margin: 0px;
+
+}
+
+.img_logo_slider {
+    width: 30px !important
+}
+
+.autor_tesis:hover {
+    text-decoration: none;
+}
+
+.tutor_tesis a {
+    color: #fff;
+}
+
+main {
+    min-height: 60vh;
+}
+
+.bg_footer_index {
+    border-top: 1px solid rgba(255, 255, 255, 0.44);
+    font-size: 12px;
+}
+
+.bg_footer_index p {
+    margin: 0px;
+}
+
+.autor_yeison {
+    color: #ffc107 !important;
+}
+
+/*Estilos w_tesis*/
+
+.wt_descripcion_tesis {
+    line-height: 8px;
+}
+
+.wt_titulo_tesis,
+.wt_linea {
+    line-height: 15px;
+
+}
+
+.wt_titulo_tesis a,
+.wt_estudiante_tesis a,
+.wt_tutor_tesis a,
+.wt_descripcion_tesis {
+    color: #ffffff;
+}
+
+.wt_linea {
+    margin: 0px;
+}
+
+.bg_tesis {
+    background: rgba(0, 0, 0, 0.54);
+    border-radius: 0px;
+}
+
+.p_tesis {
+    margin: 0px;
+}
+
+.item_tesis {
+    color: #ffc107;
+}
+
+
+/*Color header modal*/
+
+.bg_modal {
+    background: -webkit-gradient(linear, left top, left bottom, from(#02456d), to(#034269)) !important;
+    background: linear-gradient(#02456d, #034269) !important;
+    color: #fff;
+    border-radius: 0px;
+    border-bottom: 3px solid #ffc107 !important;
+}
+
+#c_tesis article {
+    margin-bottom: 15px;
+}
+
+#c_tesis .row {
+    margin: 0px;
+}
+
+#c_tesis .c_tesis_p {
+    padding: 0px !imporant;
+}
+
+#c_tesis small {
+    line-height: 3px;
+}
+
+#c_tesis .wt_descripcion_tesis {
+    padding-right: 5px;
+    ;
+}
+
+/*Estilos modulo estudiantes*/
+
+.c_estudiantes .bg_top_card_e {
+    background-image: url(../multimedia/img/bg_estudiante1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    position: relative;
+    border-bottom: 4px solid #ffc107;
+}
+
+.c_estudiantes .bg_top_card_t {
+    background-image: url(../multimedia/img/bg_estudiante2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    position: relative;
+    border-bottom: 4px solid #ffc107;
+}
+
+
+.c_estudiantes .img_card_e {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    border: 4px solid #ffc107;
+    position: absolute;
+    bottom: -35%;
+    left: 4%;
+}
+
+.c_estudiantes .c_estudiante_perfil {
+    padding: 0px;
+    border-radius: 0px;
+}
+
+.c_estudiantes .bg_card_e {
+    background: #f8f9fa;
+    color: #000;
+    font-size: 14px;
+    padding-bottom: 10px !important;
+}
+
+.c_estudiantes .card-title {
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.c_estudiantes .card-title span {
+    color: #5f5e5e;
+}
+
+.c_estudiantes .i_carrera_estudiante_ {
+    font-size: 12px;
+}
+
+.c_estudiantes .info_tesis_estudiante {
+    line-height: 18px;
+    color: #313131;
+    text-align: justify;
+}
+
+.c_estudiantes .info_tesis_estudiante p {
+    margin-bottom: 8px;
+}
+
+.c_estudiantes .nom_user_tesis {
+    color: #02456d
+}
+
+.c_estudiantes .periodo_estudio_e {
+    margin-bottom: 0px !important;
+}
+
+#modal_correo_user .modal-header {
+    position: relative;
+    height: 80px;
+}
+
+#modal_correo_user .img_card_e_modal {
+    position: absolute;
+    bottom: -50%;
+    left: 35%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 4px solid #ffc107;
+    background: #fff;
+}
+
+.modal .close {
+    color: #fff;
+}
+
+
+.form_contacto_user input,
+.form_contacto_user textarea {
+    font-size: 14px;
+}
+
+.icon_redes_estudiante {
+    color: #02456d;
+    font-size: 18px;
+    padding: 10px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.icon_redes_estudiante:hover {
+    color: #fff;
+    background: #02456d;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.card-footer {
+    padding: 3px 0px !important;
+}
+
+.shadow2 {
+    -webkit-box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.21) !important;
+    box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.21) !important;
+}
+
+.titulo_estudiante_tesis {
+    color: #212121;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.titulo_estudiante_tesis:hover {
+    color: #083c83;
+    text-decoration: none;
+}
+
+.c_titulo_tesis_e {
+    height: 95px;
+    overflow: hidden;
+}
+
+.c_estudiantes .card {
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+    border: 0px solid #fff !important;
+    background: none !important;
+}
+
+.c_estudiantes .c_grid_e {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.img_visionmision {
+    width: 100%;
+    height: 55%;
+}
+
+.misionvision_img {
+    width: 50%;
+}
+
+.form_is label {
+    color: #343536;
+    font-weight: bold;
+}
+
+.form_is_p h2 {
+    color: #083c83;
+}
+
+#nacionalidad_user {
+    padding: 0px;
+}

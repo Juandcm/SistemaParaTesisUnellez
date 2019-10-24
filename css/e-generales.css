@@ -1,0 +1,50 @@
+@import url("e-index.css");
+@import url("e-panel_admin.css");
+
+
+
+
+/*Estilos generales*/
+body {
+    min-height: 100vh;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#02456d), to(#034269));
+    background: linear-gradient(#02456d, #034269);
+}
+
+/*Color Fondos*/
+
+.bg-primary {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffc107), to(#ffc107)) !important;
+    background: linear-gradient(#ffc107, #ffc107) !important;
+    color: #fff !important;
+}
+
+
+.bg-primary2 {
+    background: rgba(255, 255, 255, 0.6) !important;
+    color: #fff !important;
+    
+}
+
+.bg-danger {
+    background: -webkit-gradient(linear, left top, left bottom, from(#efb401), to(#ffc310)) !important;
+    background: linear-gradient(#efb401, #ffc310) !important;
+    color: #fff !important;
+}
+
+/*Color de botones*/
+
+.btn-primary {
+    background: -webkit-gradient(linear, left top, left bottom, from(#02456d), to(#034269)) !important;
+    background: linear-gradient(#02456d, #034269) !important;
+    border-radius: 0px;
+    border: 1px solid #014976;
+}
+
+.btn-secondary {
+    background: -webkit-gradient(linear, left top, left bottom, from(#818181), to(#696969)) !important;
+    background: linear-gradient(#818181, #696969) !important;
+    border-radius: 0px;
+    border: 1px solid #807e7e;
+}
